@@ -15,7 +15,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-<modules>  <module>monappli-domaine</module>
+ 
+<modules>  
+	<module>monappli-domaine</module>
     <module>monappli-dao</module>
     <module>monappli-service</module>
     <module>monappli-web</module>

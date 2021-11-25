@@ -23,6 +23,11 @@
 	
     <dependency>
       <groupId>com.objis.mavenapps</groupId>
+      <artifactId>monappli-domaine</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+	  <dependency>
+      <groupId>com.objis.mavenapps</groupId>
       <artifactId>monappli-service</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
