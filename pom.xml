@@ -20,4 +20,8 @@
     <module>monappli-service</module>
     <module>monappli-web</module>
   </modules>
+ <scm>
+    <connection>git@github.com:vincentDcmps/monappli.git</connection>
+    <developerConnection>git@github.com:vincentDcmps/monappli.git</developerConnection>
+  </scm>
 </project>
