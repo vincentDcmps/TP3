@@ -5,7 +5,13 @@ pipeline {
 		stage('Build') {
 			steps {
 				echo 'Building..'
+				bat 'mvn install'
 			}
+			post {
+                success {
+                    junit 'monappli-domaine/target/surefire-reports/*.xml'
+                        }
+                 }
 		}
 		stage('Test') {
 			steps {
