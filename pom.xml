@@ -4,7 +4,7 @@
   <groupId>com.objis.mavenapps</groupId>
   <artifactId>monappli</artifactId>
   <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>monappli</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -25,6 +25,7 @@
  <scm>
     <connection>scm:git:git@github.com:vincentDcmps/monappli.git</connection>
     <developerConnection>scm:git:git@github.com:vincentDcmps/monappli.git</developerConnection>
+    <tag>monappli-1.0</tag>
   </scm>
   <distributionManagement>
    <snapshotRepository>
